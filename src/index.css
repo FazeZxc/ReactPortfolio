@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'NeueMontreal-Regular';
+    src: url('assets/Fonts/NeueMontreal-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    position: relative;
+    background-color: #999D9E;
+}
